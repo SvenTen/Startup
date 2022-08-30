@@ -1,0 +1,53 @@
+html {
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .hero {
+  height: 100vh;
+  width: 100%;
+}
+.container .hero button {
+  position: relative;
+  left: 50%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+  padding: 1em 2em;
+  background-color: #ff6200;
+  border-radius: 2em;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+}
+.container .hero button::before {
+  content: "";
+  position: absolute;
+  background-color: #ff6200;
+  height: 4px;
+  width: 69px;
+  left: 50%;
+  top: -30%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: default;
+}
+.container .hero button:hover {
+  cursor: pointer;
+}
+.container .hero h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 31%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0px 7px 5px #423064;
+}/*# sourceMappingURL=style.css.map */
